@@ -40,55 +40,59 @@
 
 						<!-- Intro -->
 							<article id="intro">
-								<h2 class="major">Intro</h2>
+								<h2 class="major">What it does</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>Being altruistic is a virtue, but can it be made into a game ? With this thought, we were inspired to build a mobile app to "gamify" altruism itself !</p>
+								<p>Our app, called <b>Give Thanks</b>, shows the user their closest charities, donate and compare their altruistic history with their friends !</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
-								<h2 class="major">Work</h2>
+								<h2 class="major">How we built it</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p>From the beginning to the end, we did it all over 24 hours ! We started off our project by painstakingly scraping a charity website which hosted a vast amount of data about the local charities in and around Chicago, IL. This can be expanded to a statewide or even countrywide in a similar manner.</p>
+								<p>We then began analysing all of this data, finding patterns that could be interpreted and explained. With this, we had a good idea of what we could stream line our backend database - MongoDB, driven by Node.js with Express.js to have maximum speed and efficiency for the users. Hosted on Heroku, this database streamlines access to large amounts of data and makes the entire framework scalable.</p>
+								<p>Backend matters, but users like awesome apps even more ! So we then set about designing a custom iOS application from the ground up. Designed for iOS 11.2, using Swift 4, we designed an efficient mobile app that will invite the user to use it constantly !</p>
 							</article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
+						<!-- Challenges -->
+							<article id="challenges">
+								<h2 class="major">Challenges we faced</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<p>Right from the get go, we had an uphill battle. Scraping a website as noisy as that was a very challenging task, requiring constant updates and fixes to clean the incoming data.</p>
+								<p>After this, we had to integrate our dataset with our MongoDB database. Interfacing our database with the Heroku cloud platform-as-a-service was a major challenge, due to vague error messages, extremely limited tolerance to faulty queries etc.</p>
+								<p>Designing the iOS app was another major task. Having divided our workforce evenly to work on the backend and the app, the two developers tasked with designing the app had to face the daunting task of merging various external UI elements from various open source projects and interfacing with the still-nascent backend.</p>
 							</article>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
+						<!-- Accomplishments -->
+							<article id="accomplishments">
+								<h2 class="major">Accomplishments that we're proud of</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p></p>
 							</article>
+
+						<!-- What we Learned -->
+							<article id="learned">
+								<h2 class="major">Accomplishments that we're proud of</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>The intricate task of building an entire functional project from the ground up was an eye-opening experience for all of us. Never before had we been tasked with such a vast variety of tasks we were unfamiliar with such as scraping websites, designing front end and backends simultaneously and even coming up with the core idea, all within such a restrictive time-frame.</p>
+							</article>
+
+						<!-- What's Next -->
+							<article id="whatsnext">
+								<h2 class="major">What's next for GiveThanks</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>Next, we want to remove the kinks from the project - namely the large burdon on the backend to be reduced to make it more friendly to network-strapped users and to streamline the database even further to improve the load times of the application.</p>
+							</article>
+
+						<!-- Built with -->
+							<article id="builtwith">
+								<h2 class="major">Built with</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>We used several technologies to complete this project. The dataset was scraped using the python scraping library - "Scrapy". Using Scikit-learn, we were able to cluster and understand some redundancies in the scraped data and remove them before designing our database.</p>
+								<p>We used a NoSQL database - MongoDB - backed by Node.js and Express.js to quickly build our backend. Simultaneously, we used XCode to quickly begin designing and implementing the logic to interface the the backend, and a veritable source of external open source UI elements.</p>
+							</article>
+
 
 						<!-- Elements -->
 							<article id="elements">
